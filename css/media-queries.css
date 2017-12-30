@@ -1,0 +1,270 @@
+@media screen and (max-width: 980px) {
+  .navbar_top a {
+    font-size: 18px;
+  }
+  .centerblock_content {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+       -moz-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .contetn_itm {
+    margin-right: 0 !important;
+  }
+}
+
+@media screen and (max-width: 881px) {
+  .leftblock {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .drop-list li:nth-child(3) {
+    background-position: left top 25%;
+    line-height: 22px;
+  }
+  .price-i {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 695px) {
+  .navbar_top {
+    display: none;
+    width: 100%;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+       -moz-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .navbar_top a {
+    font-size: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+  .navbar_top li {
+    display: inline-block;
+    width: 70%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: none !important;
+  }
+  .navbar_top li:hover {
+    background-color: red;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    -moz-transition: 1s;
+    transition: 1s;
+  }
+  .navbar_top a:hover {
+    border: none;
+  }
+  .touch_menu {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .footer {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .leftblock {
+    max-width: 40%;
+  }
+  .centerblock {
+    max-width: 60% !important;
+  }
+  .contetn_itm:last-child {
+    margin-top: 20px;
+  }
+  .text_block {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .text_block div {
+    width: 100%;
+  }
+  .text_block div:first-child {
+    margin-bottom: 15px;
+  }
+  .footer {
+    padding: 25px 0;
+  }
+  .footer_inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+       -moz-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .footer-nav {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+       -moz-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+       -moz-box-orient: horizontal;
+       -moz-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-justify-content: space-around;
+        -ms-flex-pack: distribute;
+            justify-content: space-around;
+    width: 100%;
+  }
+  .copy_right {
+    -webkit-box-ordinal-group: 4;
+    -webkit-order: 3;
+       -moz-box-ordinal-group: 4;
+        -ms-flex-order: 3;
+            order: 3;
+    margin-top: 30px;
+  }
+  .copy_right br {
+    display: none;
+  }
+  .dev_info_cont {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+       -moz-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+       -moz-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-top: 30px;
+  }
+  .dev_info_cont br {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .feedback_modal_cont {
+    width: 300px;
+  }
+  .phone-numbers {
+    font-size: 20px;
+    line-height: 23px;
+  }
+  .feed_back_link {
+    font-size: 16px;
+    line-height: 23px;
+    margin-top: 11px;
+  }
+  .price_list_wrap {
+    margin-top: 20px;
+  }
+  .slider {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .header_inner {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+       -moz-box-orient: vertical;
+       -moz-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+       -moz-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    padding: 0 0 20px;
+  }
+  .main_logo {
+    -webkit-box-ordinal-group: 3;
+    -webkit-order: 2;
+       -moz-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .feed_back_header {
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+       -moz-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin-bottom: 20px;
+  }
+  .feed_back_link {
+    margin-right: auto;
+    margin-top: 0;
+  }
+  .centerblock {
+    max-width: 100% !important;
+  }
+  .leftblock {
+    display: none;
+  }
+  .footer {
+    padding: 0;
+  }
+  .footer-nav {
+    display: none;
+  }
+  .dev_text {
+    font-size: 11px;
+  }
+  .copy_right {
+    margin-top: 5px;
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .feedback_modal_cont {
+    width: 280px;
+  }
+  .exit-btn {
+    right: -5px;
+  }
+}
